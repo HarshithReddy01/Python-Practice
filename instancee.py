@@ -11,9 +11,16 @@ class Rectanglee:
     def perimetera(self):
         return 2*(self.lengthh+self.breadthh)
     
+    def calc_area(lengthh, breadthh):
+        return lengthh*breadthh
+
+    
     @classmethod
     def get_count(cls):
         return cls.count
+    
+
+
 
 re = Rectanglee(15,8)
 ree = Rectanglee(7, 10)
